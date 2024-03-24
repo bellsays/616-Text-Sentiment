@@ -18,7 +18,7 @@ def TextClean(text):
   return text
  
 # ตั้งชื่อหัวข้อหน้าเว็บ
-st.title("Text Sentiment Prediction Using Logistic Regression Model Created By Siwayu Seeyangnok ID: 66130701712")
+st.title("Text Sentiment Prediction Using Naive bayes Model Created By Supattra saekow ID: 6613070172")
  
 def main():
   # สร้าง Sidebar สำหรับรับข้อความ
@@ -35,7 +35,7 @@ def main():
  
   # แสดงผลลัพธ์
   if prediction == 'pos':
-    st.success("`Positive")
+    st.success("Positive")
   else:
     st.error("Negative")
  
